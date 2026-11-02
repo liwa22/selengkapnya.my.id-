@@ -6,16 +6,111 @@
     "hotspots": [
       {
         "label": "A103 - Atasan putih",
-        "x": 9,
-        "y": 16,
+        "x": 85,
+        "y": 30,
         "directlink": "https://s.shopee.co.id/6fiYAMUEs4"
       },
       {
         "label": "A104 - Celana jeans",
-        "x": 9,
-        "y": 86,
+        "x": 85,
+        "y": 70,
         "directlink": "https://s.shopee.co.id/80DvkmcLTA"
       }
     ]
-  }
+  },
+  {
+  "id": "A104-A103",
+  "title": "sweater croptop x jeans kulot",
+  "image": "https://cdn.aceimg.com/A3SfKd3ey.jpg",
+  "hotspots": [
+    {
+      "label": "sweater croptop x jeans kulot",
+      "x": 85,
+      "y": 30,
+      "directlink": "https://s.shopee.co.id/9fM9hyNNeG"
+      },
+    {
+      "label": "A104 - Celana jeans",
+      "x": 85,
+      "y": 70,
+      "directlink": "https: //s.shopee.co.id/9fM9hyNNeG"
+      }
+    ]
+},
+{
+  "id": "A104-A103",
+  "title": "TANKTOP SLIM FIT x BAGGY JEANS",
+  "image": "https://cdn.aceimg.com/ooXSmuPFH.jpg",
+  "hotspots": [
+    {
+      "label": "sweater croptop x jeans kulot",
+      "x": 85,
+      "y": 30,
+      "directlink": "https://s.shopee.co.id/6fiY8hA71N"
+      },
+    {
+      "label": "A104 - Celana jeans",
+      "x": 85,
+      "y": 70,
+      "directlink": "https://s.shopee.co.id/8Kqm7s10ZE"
+      }
+    ]
+},
+{
+  "id": "A104-A103",
+  "title": "KOREAN STYLE TANKTOP x JEANS STAR",
+  "image": "https://cdn.aceimg.com/Z4LUhwGCi.jpg",
+  "hotspots": [
+    {
+      "label": "sweater croptop x jeans kulot",
+      "x": 85,
+      "y": 30,
+      "directlink": "https://s.shopee.co.id/3qOMlmzKw7"
+      },
+    {
+      "label": "A104 - Celana jeans",
+      "x": 85,
+      "y": 70,
+      "directlink": "https://s.shopee.co.id/5LDAYQnedT"
+      }
+    ]
+},
+{
+  "id": "A104-A103",
+  "title": "OFFSOULDER CUT LACE x CRUNCHY BRULEE",
+  "image": "https://cdn.aceimg.com/95R2GK7R5.jpg",
+  "hotspots": [
+    {
+      "label": "sweater croptop x jeans kulot",
+      "x": 85,
+      "y": 30,
+      "directlink": "https://s.shopee.co.id/1BNbbGRLtK"
+      },
+    {
+      "label": "A104 - Celana jeans",
+      "x": 85,
+      "y": 70,
+      "directlink": "https://s.shopee.co.id/60SrMCUMDs"
+      }
+    ]
+},
+{
+  "id": "A104-A103",
+  "title": "BLOUSE SLIM x COCOA GIRL",
+  "image": "https://cdn.aceimg.com/DvTfB3dep.jpg",
+  "hotspots": [
+    {
+      "label": "sweater croptop x jeans kulot",
+      "x": 85,
+      "y": 30,
+      "directlink": "https://s.shopee.co.id/4LKdNPgU5p"
+      },
+    {
+      "label": "A104 - Celana jeans",
+      "x": 85,
+      "y": 70,
+      "directlink": "https://s.shopee.co.id/1Lh1nqRtTN"
+      }
+    ]
+}
 ]
