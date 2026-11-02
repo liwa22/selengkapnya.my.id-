@@ -1,38 +1,21 @@
 [
   {
-    "id": "A77",
-    "title": "baju HEYSOUL ala korea ",
-    "image": "https://cdn.aceimg.com/tpwcYlCkO.jpg",
-    "directlink": "https://id.shp.ee/g2yWsr9S"
-  },
-  {
-    "id": "A72",
-    "title": "atasan ala koreacrop top",
-    "image": "https://cdn.aceimg.com/ISIPKK1Dr.jpg",
-    "directlink": "https://s.shopee.co.id/4Ve3VgO2op"
-  },
-  {
-    "id": "A78",
-    "title": "long sleeve kaos panjang",
-    "image": "https://cdn.aceimg.com/JqBvJtmt8.jpg",
-    "directlink": "https://s.shopee.co.id/4Ve3VoUA7S"
-  },
-  {
-    "id": "A74",
-    "title": "kaos v neck",
-    "image": "https://cdn.aceimg.com/xhckvN447.jpg",
-    "directlink": "https://s.shopee.co.id/AUvGetoRwf"
-  },
-  {
-    "id": "A81",
-    "title": "A81 Kamicotton All Day Fit Fitte Wanita Slim Fit Polos",
-    "image": "https://cdn-domain-anda.com/foto-produk-a81.jpg",
-    "directlink": "https://link-affiliate-anda.com/produk-a81"
-  },
-  {
-    "id": "A80",
-    "title": "A80 Celana Jeans Wanita High Waist Wide Star Detail",
-    "image": "https://cdn-domain-anda.com/foto-produk-a80.jpg",
-    "directlink": "https://link-affiliate-anda.com/produk-a80"
+    "id": "A104-A103",
+    "title": "A104 Atasan Putih dan A103 Celana Jeans",
+    "image": "https://cdn.aceimg.com/hla1Radp1.jpg",
+    "hotspots": [
+      {
+        "label": "A103 - Atasan putih",
+        "x": 9,
+        "y": 16,
+        "directlink": "https://s.shopee.co.id/6fiYAMUEs4"
+      },
+      {
+        "label": "A104 - Celana jeans",
+        "x": 9,
+        "y": 86,
+        "directlink": "https://s.shopee.co.id/80DvkmcLTA"
+      }
+    ]
   }
 ]
