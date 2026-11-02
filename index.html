@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -5,61 +6,271 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#ffffff">
 <title>Katalog Produk</title>
+
 <style>
-*{box-sizing:border-box}
-body{margin:0;padding:18px;background:#f4f4f4;color:#171717;font-family:Arial,Helvetica,sans-serif}
-.catalog{width:100%;max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.product{min-width:0;background:#fff;overflow:hidden;display:block}
-.product-media{position:relative;width:100%;overflow:hidden;background:#e8e8e8}
-.product img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}
-.hotspot{position:absolute;left:var(--x);top:var(--y);transform:translate(-50%,-50%);width:clamp(25px,5.2vw,43px);height:clamp(25px,5.2vw,43px);border-radius:50%;background:#fff;border:0;box-shadow:0 0 0 1px rgba(255,255,255,.8),0 5px 17px rgba(0,0,0,.25),0 0 28px 9px rgba(0,0,0,.12);display:flex;align-items:center;justify-content:center;text-decoration:none;z-index:2;transition:transform .16s ease,box-shadow .16s ease;-webkit-tap-highlight-color:transparent}
-.hotspot:hover{transform:translate(-50%,-50%) scale(1.12);box-shadow:0 0 0 2px rgba(255,255,255,.95),0 7px 22px rgba(0,0,0,.3),0 0 32px 11px rgba(0,0,0,.15)}
-.hotspot:focus-visible{outline:3px solid #333;outline-offset:4px}
-.product-title{padding:14px 16px 17px;font-size:clamp(17px,2.3vw,25px);line-height:1.25;font-weight:400;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere;min-height:78px}
-.status{grid-column:1/-1;text-align:center;color:#777;padding:28px 10px;background:#fff}
-@media(max-width:560px){body{padding:9px}.catalog{gap:10px}.product-title{padding:10px 10px 13px;font-size:clamp(15px,4.1vw,19px);min-height:68px}.hotspot{width:clamp(25px,7vw,36px);height:clamp(25px,7vw,36px)}}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 18px;
+  background: #f4f4f4;
+  color: #171717;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* KATALOG */
+.catalog {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+/* KARTU PRODUK */
+.product {
+  min-width: 0;
+  background: #fff;
+  overflow: hidden;
+  display: block;
+}
+
+/* AREA GAMBAR */
+.product-media {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #e8e8e8;
+}
+
+.product img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+}
+
+/* HOTSPOT - UKURAN DIPERKECIL */
+.hotspot {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  transform: translate(-50%, -50%);
+
+  width: clamp(12px, 2.6vw, 21px);
+  height: clamp(12px, 2.6vw, 21px);
+
+  border-radius: 50%;
+  background: #fff;
+  border: 0;
+
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,.8),
+    0 2px 7px rgba(0,0,0,.22);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  z-index: 2;
+
+  transition: transform .16s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hotspot:hover {
+  transform: translate(-50%, -50%) scale(1.12);
+}
+
+.hotspot:focus-visible {
+  outline: 2px solid #333;
+  outline-offset: 2px;
+}
+
+/* JUDUL PRODUK */
+.product-title {
+  padding: 14px 16px 17px;
+  font-size: clamp(17px, 2.3vw, 25px);
+  line-height: 1.25;
+  font-weight: 400;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  min-height: 78px;
+}
+
+/* STATUS */
+.status {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #777;
+  padding: 28px 10px;
+  background: #fff;
+}
+
+/* TAMPILAN HP */
+@media(max-width:560px) {
+
+  body {
+    padding: 9px;
+  }
+
+  .catalog {
+    gap: 10px;
+  }
+
+  .product-title {
+    padding: 10px 10px 13px;
+    font-size: clamp(15px, 4.1vw, 19px);
+    min-height: 68px;
+  }
+
+  .hotspot {
+    width: clamp(12px, 3.5vw, 18px);
+    height: clamp(12px, 3.5vw, 18px);
+  }
+}
 </style>
 </head>
+
 <body>
-<main class="catalog" id="catalog"><div class="status">Memuat produk...</div></main>
+
+<main class="catalog" id="catalog">
+  <div class="status">Memuat produk...</div>
+</main>
+
 <script>
-const JSON_URL="./products.json";
-async function loadProducts(){
- const catalog=document.getElementById("catalog");
- try{
-  const response=await fetch(JSON_URL,{cache:"no-store"});
-  if(!response.ok)throw new Error("Gagal membaca products.json");
-  const products=await response.json();
-  catalog.innerHTML="";
-  if(!Array.isArray(products)||products.length===0){catalog.innerHTML='<div class="status">Belum ada produk.</div>';return;}
-  products.forEach(item=>{
-   if(!item.image)return;
-   const card=document.createElement("article");card.className="product";
-   const media=document.createElement("div");media.className="product-media";
-   const img=document.createElement("img");img.src=item.image;img.alt=item.title||"Foto produk";img.loading="lazy";img.decoding="async";
-   img.onerror=()=>{img.style.visibility="hidden";media.style.background="#e8e8e8";};
-   media.appendChild(img);
-   if(Array.isArray(item.hotspots)){
-    item.hotspots.forEach(spot=>{
-     if(!spot.directlink)return;
-     const dot=document.createElement("a");dot.className="hotspot";dot.href=spot.directlink;dot.target="_blank";dot.rel="noopener noreferrer";
-     dot.setAttribute("aria-label",spot.label||"Lihat produk terkait");dot.title=spot.label||"Lihat produk terkait";
-     const x=Number(spot.x),y=Number(spot.y);
-     dot.style.setProperty("--x",(Number.isFinite(x)?x:50)+"%");
-     dot.style.setProperty("--y",(Number.isFinite(y)?y:50)+"%");
-     media.appendChild(dot);
+
+const JSON_URL = "./products.json";
+
+async function loadProducts() {
+
+  const catalog = document.getElementById("catalog");
+
+  try {
+
+    const response = await fetch(JSON_URL, {
+      cache: "no-store"
     });
-   }
-   const title=document.createElement("div");title.className="product-title";title.textContent=item.title||"Tanpa judul";
-   card.append(media,title);catalog.appendChild(card);
-  });
-  if(!catalog.children.length)catalog.innerHTML='<div class="status">Data produk belum lengkap. Periksa image di products.json.</div>';
- }catch(error){
-  catalog.innerHTML='<div class="status">Tidak bisa memuat data. Pastikan index.html dan products.json berada di folder yang sama dan dibuka melalui hosting/web server.</div>';
-  console.error(error);
- }
+
+    if (!response.ok) {
+      throw new Error("Gagal membaca products.json");
+    }
+
+    const products = await response.json();
+
+    catalog.innerHTML = "";
+
+    if (!Array.isArray(products) || products.length === 0) {
+      catalog.innerHTML =
+        '<div class="status">Belum ada produk.</div>';
+      return;
+    }
+
+    products.forEach(item => {
+
+      if (!item.image) return;
+
+      const card = document.createElement("article");
+      card.className = "product";
+
+      const media = document.createElement("div");
+      media.className = "product-media";
+
+      const img = document.createElement("img");
+
+      img.src = item.image;
+      img.alt = item.title || "Foto produk";
+      img.loading = "lazy";
+      img.decoding = "async";
+
+      img.onerror = () => {
+        img.style.visibility = "hidden";
+        media.style.background = "#e8e8e8";
+      };
+
+      media.appendChild(img);
+
+      /* MEMBUAT HOTSPOT */
+      if (Array.isArray(item.hotspots)) {
+
+        item.hotspots.forEach(spot => {
+
+          if (!spot.directlink) return;
+
+          const dot = document.createElement("a");
+
+          dot.className = "hotspot";
+          dot.href = spot.directlink;
+          dot.target = "_blank";
+          dot.rel = "noopener noreferrer";
+
+          dot.setAttribute(
+            "aria-label",
+            spot.label || "Lihat produk terkait"
+          );
+
+          dot.title = spot.label || "Lihat produk terkait";
+
+          const x = Number(spot.x);
+          const y = Number(spot.y);
+
+          dot.style.setProperty(
+            "--x",
+            (Number.isFinite(x) ? x : 50) + "%"
+          );
+
+          dot.style.setProperty(
+            "--y",
+            (Number.isFinite(y) ? y : 50) + "%"
+          );
+
+          media.appendChild(dot);
+
+        });
+
+      }
+
+      /* JUDUL */
+      const title = document.createElement("div");
+
+      title.className = "product-title";
+      title.textContent = item.title || "Tanpa judul";
+
+      card.append(media, title);
+
+      catalog.appendChild(card);
+
+    });
+
+    if (!catalog.children.length) {
+      catalog.innerHTML =
+        '<div class="status">Data produk belum lengkap. Periksa image di products.json.</div>';
+    }
+
+  } catch (error) {
+
+    catalog.innerHTML =
+      '<div class="status">Tidak bisa memuat data. Pastikan index.html dan products.json berada di folder yang sama dan dibuka melalui hosting/web server.</div>';
+
+    console.error(error);
+
+  }
+
 }
+
 loadProducts();
+
 </script>
+
 </body>
 </html>
+```
