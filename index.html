@@ -1,4 +1,4 @@
-```html
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -20,7 +20,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* KATALOG */
 .catalog {
   width: 100%;
   max-width: 1100px;
@@ -30,7 +29,6 @@ body {
   gap: 18px;
 }
 
-/* KARTU PRODUK */
 .product {
   min-width: 0;
   background: #fff;
@@ -38,7 +36,6 @@ body {
   display: block;
 }
 
-/* AREA GAMBAR */
 .product-media {
   position: relative;
   width: 100%;
@@ -46,43 +43,73 @@ body {
   background: #e8e8e8;
 }
 
-.product img {
+.product img.product-image {
   width: 100%;
   aspect-ratio: 3 / 4;
   object-fit: cover;
   display: block;
 }
 
-/* HOTSPOT - UKURAN DIPERKECIL */
+/* LOGO SHOPEE PADA HOTSPOT */
 .hotspot {
   position: absolute;
   left: var(--x);
   top: var(--y);
+
   transform: translate(-50%, -50%);
 
   width: clamp(12px, 2.6vw, 21px);
   height: clamp(12px, 2.6vw, 21px);
 
-  border-radius: 50%;
-  background: #fff;
-  border: 0;
-
-  box-shadow:
-    0 0 0 1px rgba(255,255,255,.8),
-    0 2px 7px rgba(0,0,0,.22);
-
   display: flex;
   align-items: center;
   justify-content: center;
 
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px;
+
+  box-shadow: 0 2px 7px rgba(0,0,0,.22);
+
+  z-index: 5;
   text-decoration: none;
-  z-index: 2;
+  cursor: pointer;
 
   transition: transform .16s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
-.hotspot:hover {
+/* GAMBAR LOGO */
+.hotspot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+/* POSISI PALING ATAS */
+.hotspot.edge-top {
+  top: 0;
+  transform: translate(-50%, 0);
+}
+
+.hotspot.edge-top:hover {
+  transform: translate(-50%, 0) scale(1.12);
+}
+
+/* POSISI PALING BAWAH */
+.hotspot.edge-bottom {
+  top: 100%;
+  transform: translate(-50%, -100%);
+}
+
+.hotspot.edge-bottom:hover {
+  transform: translate(-50%, -100%) scale(1.12);
+}
+
+/* POSISI NORMAL */
+.hotspot:not(.edge-top):not(.edge-bottom):hover {
   transform: translate(-50%, -50%) scale(1.12);
 }
 
@@ -91,7 +118,6 @@ body {
   outline-offset: 2px;
 }
 
-/* JUDUL PRODUK */
 .product-title {
   padding: 14px 16px 17px;
   font-size: clamp(17px, 2.3vw, 25px);
@@ -107,7 +133,6 @@ body {
   min-height: 78px;
 }
 
-/* STATUS */
 .status {
   grid-column: 1 / -1;
   text-align: center;
@@ -151,6 +176,9 @@ body {
 
 const JSON_URL = "./products.json";
 
+/* LOGO SHOPEE */
+const SHOPEE_LOGO = "https://cdn.aceimg.com/9F5G0dmfc.jpg";
+
 async function loadProducts() {
 
   const catalog = document.getElementById("catalog");
@@ -185,8 +213,10 @@ async function loadProducts() {
       const media = document.createElement("div");
       media.className = "product-media";
 
+      /* GAMBAR PRODUK */
       const img = document.createElement("img");
 
+      img.className = "product-image";
       img.src = item.image;
       img.alt = item.title || "Foto produk";
       img.loading = "lazy";
@@ -199,7 +229,7 @@ async function loadProducts() {
 
       media.appendChild(img);
 
-      /* MEMBUAT HOTSPOT */
+      /* MEMBUAT HOTSPOT LOGO */
       if (Array.isArray(item.hotspots)) {
 
         item.hotspots.forEach(spot => {
@@ -209,16 +239,17 @@ async function loadProducts() {
           const dot = document.createElement("a");
 
           dot.className = "hotspot";
+
           dot.href = spot.directlink;
           dot.target = "_blank";
           dot.rel = "noopener noreferrer";
 
           dot.setAttribute(
             "aria-label",
-            spot.label || "Lihat produk terkait"
+            spot.label || "Buka produk Shopee"
           );
 
-          dot.title = spot.label || "Lihat produk terkait";
+          dot.title = spot.label || "Buka produk Shopee";
 
           const x = Number(spot.x);
           const y = Number(spot.y);
@@ -233,13 +264,31 @@ async function loadProducts() {
             (Number.isFinite(y) ? y : 50) + "%"
           );
 
+          /* PENGATURAN TEPI ATAS DAN BAWAH */
+          if (spot.edge === "top") {
+            dot.classList.add("edge-top");
+          }
+
+          if (spot.edge === "bottom") {
+            dot.classList.add("edge-bottom");
+          }
+
+          /* LOGO SHOPEE */
+          const logo = document.createElement("img");
+
+          logo.src = SHOPEE_LOGO;
+          logo.alt = "";
+          logo.setAttribute("aria-hidden", "true");
+
+          dot.appendChild(logo);
+
           media.appendChild(dot);
 
         });
 
       }
 
-      /* JUDUL */
+      /* JUDUL PRODUK */
       const title = document.createElement("div");
 
       title.className = "product-title";
