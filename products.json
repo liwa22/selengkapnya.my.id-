@@ -264,5 +264,24 @@
         "directlink": "https://s.shopee.co.id/9V2ljeC3Rm"
       }
     ]
+  },
+  {
+    "id": "A113",
+    "title": "KAOS POLKADOT x JEANS ROBEK",
+    "image": "https://cdn.aceimg.com/garPc7ujE.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/1W0UD4dPqW"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/7VHhM8Tioc"
+      }
+    ]
   }
 ]
