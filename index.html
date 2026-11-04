@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -42,9 +43,10 @@ body {
   background: #e8e8e8;
 }
 
+/* THUMBNAIL PORTRAIT LEBIH PANJANG */
 .product img.product-image {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
   display: block;
 }
@@ -58,7 +60,7 @@ body {
   transform: translate(-50%, -50%);
 
   width: clamp(18px, 3.5vw, 30px);
-height: clamp(18px, 3.5vw, 30px);
+  height: clamp(18px, 3.5vw, 30px);
 
   display: flex;
   align-items: center;
@@ -117,6 +119,7 @@ height: clamp(18px, 3.5vw, 30px);
   outline-offset: 2px;
 }
 
+/* JUDUL PRODUK */
 .product-title {
   padding: 14px 16px 17px;
   font-size: clamp(17px, 2.3vw, 25px);
@@ -157,10 +160,11 @@ height: clamp(18px, 3.5vw, 30px);
     min-height: 68px;
   }
 
-.hotspot {
-  width: 50px;
-  height: 50px;
-}
+  .hotspot {
+    width: 50px;
+    height: 50px;
+  }
+
 }
 </style>
 </head>
@@ -177,6 +181,7 @@ const JSON_URL = "./products.json";
 
 /* LOGO SHOPEE */
 const SHOPEE_LOGO = "https://cdn.aceimg.com/mClzAd1ef.jpg";
+
 
 async function loadProducts() {
 
@@ -202,7 +207,16 @@ async function loadProducts() {
       return;
     }
 
-    products.forEach(item => {
+    /*
+      PRODUK TERBARU PALING ATAS
+
+      Data products.json tetap tidak diubah.
+      Hanya urutan tampilannya yang dibalik.
+    */
+
+    const sortedProducts = [...products].reverse();
+
+    sortedProducts.forEach(item => {
 
       if (!item.image) return;
 
@@ -263,7 +277,7 @@ async function loadProducts() {
             (Number.isFinite(y) ? y : 50) + "%"
           );
 
-          /* PENGATURAN TEPI ATAS DAN BAWAH */
+          /* POSISI TEPI ATAS DAN BAWAH */
           if (spot.edge === "top") {
             dot.classList.add("edge-top");
           }
