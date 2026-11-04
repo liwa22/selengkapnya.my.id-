@@ -207,5 +207,24 @@
         "directlink": "https://s.shopee.co.id/8pn4wByBFt"
       }
     ]
+  },
+  {
+    "id": "A110",
+    "title": "KIMMY TOP x STAR DENIM",
+    "image": "https://cdn.aceimg.com/Me6ZQS51F.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/30pHzGGuMj"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/6AmJl7mw5V"
+      }
+    ]
   }
 ]
