@@ -226,5 +226,24 @@
         "directlink": "https://s.shopee.co.id/6AmJl7mw5V"
       }
     ]
+  },
+  {
+    "id": "A111",
+    "title": "JEANS JAKET x KULOT COKLAT",
+    "image": "https://cdn.aceimg.com/SDJuwSIiK.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/2LZbBYVdP2"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/40hpAuI18r"
+      }
+    ]
   }
 ]
