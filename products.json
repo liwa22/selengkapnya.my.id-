@@ -283,5 +283,24 @@
         "directlink": "https://s.shopee.co.id/7VHhM8Tioc"
       }
     ]
+  },
+  {
+    "id": "A114",
+    "title": "AMERICAN VINTAGE x AMERICAN JEANS",
+    "image": "https://cdn.aceimg.com/j5zwtBF4S.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/7puXkpGBqL"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/7KyH9wDVLY"
+      }
+    ]
   }
 ]
