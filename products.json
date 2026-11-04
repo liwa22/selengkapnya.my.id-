@@ -188,5 +188,24 @@
         "directlink": "https://s.shopee.co.id/2LZbBYVdP2"
       }
     ]
+  },
+  {
+    "id": "A109",
+    "title": "BATWING TOP x JEANS WIDE LEG",
+    "image": "https://cdn.aceimg.com/unZJasXwF.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/3g4ymerZVQ"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/8pn4wByBFt"
+      }
+    ]
   }
 ]
