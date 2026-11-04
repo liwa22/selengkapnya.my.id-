@@ -131,5 +131,24 @@
         "directlink": "https://s.shopee.co.id/30pHyD3ZLW"
       }
     ]
+  },
+  {
+    "id": "A106",
+    "title": "T SHIRT KOREAN x DENIM OVERSIZE",
+    "image": "https://cdn.aceimg.com/50nBEc2Oc.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/80Dxvf86xl"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/6AmJkMW2Jl"
+      }
+    ]
   }
 ]
