@@ -245,5 +245,24 @@
         "directlink": "https://s.shopee.co.id/40hpAuI18r"
       }
     ]
+  },
+  {
+    "id": "A112",
+    "title": "KAOS DUA POTONG x KULOT HITAM",
+    "image": "https://cdn.aceimg.com/lIDPuvvrX.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/8AXO94OlIJ"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/9V2ljeC3Rm"
+      }
+    ]
   }
 ]
