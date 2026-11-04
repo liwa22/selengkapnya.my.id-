@@ -150,5 +150,24 @@
         "directlink": "https://s.shopee.co.id/6AmJkMW2Jl"
       }
     ]
+  },
+  {
+    "id": "A107",
+    "title": "OF SHOULDER x JEANS CARGO",
+    "image": "https://cdn.aceimg.com/81e3ICmRj.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/6q20XNQdaj"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/30pHyD3ZLW"
+      }
+    ]
   }
 ]
