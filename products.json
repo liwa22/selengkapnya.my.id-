@@ -169,5 +169,24 @@
         "directlink": "https://s.shopee.co.id/30pHyD3ZLW"
       }
     ]
+  },
+  {
+    "id": "A108",
+    "title": "TANKTOP RETRO x DENIM JEANS",
+    "image": "https://cdn.aceimg.com/que7hL42w.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/8KqoKYDNhY"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/2LZbBYVdP2"
+      }
+    ]
   }
 ]
