@@ -359,5 +359,24 @@
         "directlink": "https://s.shopee.co.id/8AXPl1P0Zm"
       }
     ]
+  },
+  {
+    "id": "A118",
+    "title": "OFF SHOULDER x JEANS OVZ",
+    "image": "https://cdn.aceimg.com/yHXpZvjRU.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/1Bi1VkgqU"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/9zz3vwBjvh"
+      }
+    ]
   }
 ]
