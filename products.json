@@ -340,5 +340,24 @@
         "directlink": "https://s.shopee.co.id/qkp1lgnjN"
       }
     ]
+  },
+  {
+    "id": "A117",
+    "title": "RAJUT PANJANG x BAGGY JEANS",
+    "image": "https://cdn.aceimg.com/lsmvHHJGJ.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/5q9UyiGlRn"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/8AXPl1P0Zm"
+      }
+    ]
   }
 ]
