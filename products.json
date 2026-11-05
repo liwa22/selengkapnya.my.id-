@@ -454,5 +454,24 @@
         "directlink": "https://s.shopee.co.id/20wmPmSfQM"
       }
     ]
+  },
+  {
+    "id": "A123",
+    "title": "SWEATER 33 x CARGO KULOT",
+    "image": "https://cdn.aceimg.com/fcctyWew8.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/50aNywz3Xs"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/3VlaCFLDpi"
+      }
+    ]
   }
 ]
