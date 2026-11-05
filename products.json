@@ -416,5 +416,24 @@
         "directlink": "https://s.shopee.co.id/AKbuKtsvDx"
       }
     ]
+  },
+  {
+    "id": "A121",
+    "title": "LOSE DENIM x JEANS VINTAGE",
+    "image": "https://cdn.aceimg.com/l4uZhAJvF.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/1qdMDgT03u"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/LoYQxBHk1"
+      }
+    ]
   }
 ]
