@@ -397,5 +397,24 @@
         "directlink": "https://s.shopee.co.id/60SvAgfWXn"
       }
     ]
+  },
+  {
+    "id": "A120",
+    "title": "VINTAGE KAOS x JEANS KOREAN",
+    "image": "https://cdn.aceimg.com/sgPvAy8OH.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/906WkQ3017"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/AKbuKtsvDx"
+      }
+    ]
   }
 ]
