@@ -435,5 +435,24 @@
         "directlink": "https://s.shopee.co.id/LoYQxBHk1"
       }
     ]
+  },
+  {
+    "id": "A122",
+    "title": "OFFSHOULDER x BROWN JEANS",
+    "image": "https://cdn.aceimg.com/HJggeA2X9.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/2qVtPI9C44"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/20wmPmSfQM"
+      }
+    ]
   }
 ]
