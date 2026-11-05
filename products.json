@@ -378,5 +378,24 @@
         "directlink": "https://s.shopee.co.id/9zz3vwBjvh"
       }
     ]
+  },
+  {
+    "id": "A119",
+    "title": "SABRINA x JENAS SOBEK",
+    "image": "https://cdn.aceimg.com/RchRnX5uW.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/3B8jnRrjk6"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/60SvAgfWXn"
+      }
+    ]
   }
 ]
