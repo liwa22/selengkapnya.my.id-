@@ -302,5 +302,24 @@
         "directlink": "https://s.shopee.co.id/7KyH9wDVLY"
       }
     ]
+  },
+  {
+    "id": "A115",
+    "title": "LENGAN SETENGAH x CARGO BAGGY",
+    "image": "https://cdn.aceimg.com/B7moq8lHd.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/BV8DPxrlt"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/80DzXxrZ4L"
+      }
+    ]
   }
 ]
