@@ -473,5 +473,24 @@
         "directlink": "https://s.shopee.co.id/3VlaCFLDpi"
       }
     ]
+  },
+  {
+    "id": "A124",
+    "title": "JACKET JEANS x BAGGY JEANS",
+    "image": "https://cdn.aceimg.com/7kYuTNF3M.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/6q229ynZBs"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/906WjuXndp"
+      }
+    ]
   }
 ]
