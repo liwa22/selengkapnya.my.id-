@@ -644,5 +644,24 @@
         "directlink": "https://s.shopee.co.id/1W0Yuwt720"
       }
     ]
+  },
+  {
+    "id": "A133",
+    "title": "ATASAN SABRINA x CELANA OLAHRAGA",
+    "image": "https://cdn.aceimg.com/C0IUKZ8WR.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/6VPEudlIaQ"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/5fq7v95XMb"
+      }
+    ]
   }
 ]
