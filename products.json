@@ -492,5 +492,24 @@
         "directlink": "https://s.shopee.co.id/906WjuXndp"
       }
     ]
+  },
+  {
+    "id": "A125",
+    "title": "ROMPI LEHER x JEANS BROWN",
+    "image": "https://cdn.aceimg.com/DP0I9YvsC.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/6AmOU0FXFI"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/8fTjScRXmU"
+      }
+    ]
   }
 ]
