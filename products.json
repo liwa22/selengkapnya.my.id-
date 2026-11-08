@@ -606,5 +606,24 @@
         "directlink": "https://s.shopee.co.id/4fxagWeNym"
       }
     ]
+  },
+  {
+    "id": "A131",
+    "title": "KEMEJA STRIPE x JEANS PANJANG",
+    "image": "https://cdn.aceimg.com/KPDYoz1AD.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/1W0YuoHiPx"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/3VldIVp5Ak"
+      }
+    ]
   }
 ]
