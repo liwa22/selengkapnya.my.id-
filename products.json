@@ -530,5 +530,24 @@
         "directlink": "https://s.shopee.co.id/6AmOTeGaKv"
       }
     ]
+  },
+  {
+    "id": "A127",
+    "title": "HALLOWENJACKET x CARGO JEANS",
+    "image": "https://cdn.aceimg.com/DbyqRh5gU.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/80E2hA36og"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/5AtrK0VFES"
+      }
+    ]
   }
 ]
