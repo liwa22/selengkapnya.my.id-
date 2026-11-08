@@ -663,5 +663,24 @@
         "directlink": "https://s.shopee.co.id/5fq7v95XMb"
       }
     ]
+  },
+  {
+    "id": "A134",
+    "title": "LEOPARD x ABU BAGGY JEANS",
+    "image": "https://cdn.aceimg.com/tSehLs5sa.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/1qdPJmI98Y"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/2Vt672zPU1"
+      }
+    ]
   }
 ]
