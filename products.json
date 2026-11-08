@@ -568,5 +568,24 @@
         "directlink": "https://s.shopee.co.id/7AevfjTKug"
       }
     ]
+  },
+  {
+    "id": "A129",
+    "title": "KOREAN STYLE x KULOT JEANS",
+    "image": "https://cdn.aceimg.com/TdrPQc9bv.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/3g53XKTzAj"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/60SyJe2LuX"
+      }
+    ]
   }
 ]
