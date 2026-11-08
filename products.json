@@ -587,5 +587,24 @@
         "directlink": "https://s.shopee.co.id/60SyJe2LuX"
       }
     ]
+  },
+  {
+    "id": "A130",
+    "title": "LENGAN PANJANG x CAARGO BROWN",
+    "image": "https://cdn.aceimg.com/vUSiMF8We.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/1BNiW07GQy"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/4fxagWeNym"
+      }
+    ]
   }
 ]
