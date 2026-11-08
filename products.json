@@ -511,5 +511,24 @@
         "directlink": "https://s.shopee.co.id/8fTjScRXmU"
       }
     ]
+  },
+  {
+    "id": "A126",
+    "title": "BASIC PANTS x BROWN JEANS",
+    "image": "https://cdn.aceimg.com/Vw5WOCgm2.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/1W0Yv2CCKI"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/6AmOTeGaKv"
+      }
+    ]
   }
 ]
