@@ -625,5 +625,24 @@
         "directlink": "https://s.shopee.co.id/3VldIVp5Ak"
       }
     ]
+  },
+  {
+    "id": "A132",
+    "title": "MOTIF KOTAK x BAGGY JEANS",
+    "image": "https://cdn.aceimg.com/moyc7MPxi.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/114IJzqK9o"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/1W0Yuwt720"
+      }
+    ]
   }
 ]
