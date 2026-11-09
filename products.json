@@ -682,5 +682,24 @@
         "directlink": "https://s.shopee.co.id/2Vt672zPU1"
       }
     ]
+  },
+  {
+    "id": "A135",
+    "title": "SABRINA MIRING x JEANS OLD",
+    "image": "https://cdn.imgso.co/k64oi7bci.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/4fxcUxMcTh"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/2Vt7uzyMtc"
+      }
+    ]
   }
 ]
