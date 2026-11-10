@@ -872,5 +872,24 @@
         "directlink": "https://s.shopee.co.id/1W0e8Ukieo"
       }
     ]
+  },
+  {
+    "id": "A145",
+    "title": "KOREAN PANJANG x BAGGY JEANS",
+    "image": "https://cdn.imgso.co/NwrbrW3PD.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/4fxfuLU4ie"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/70LageXA9D"
+      }
+    ]
   }
 ]
