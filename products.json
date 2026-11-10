@@ -834,5 +834,24 @@
         "directlink": "https://s.shopee.co.id/3LSIJcnvMD"
       }
     ]
+  },
+  {
+    "id": "A143",
+    "title": "FLANEL x KULOT",
+    "image": "https://cdn.imgso.co/Kj0l1gZgm.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/5fqD5wn25B"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/7Af0siuBcc"
+      }
+    ]
   }
 ]
