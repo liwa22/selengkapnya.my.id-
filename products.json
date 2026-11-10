@@ -701,5 +701,24 @@
         "directlink": "https://s.shopee.co.id/2Vt7uzyMtc"
       }
     ]
+  },
+  {
+    "id": "A136",
+    "title": "BASEBALL JAKET x KOREAN JEANS",
+    "image": "https://cdn.imgso.co/8KO1FZHXx.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/8AXY3u3IVt"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/8pnErADMDW"
+      }
+    ]
   }
 ]
