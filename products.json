@@ -758,5 +758,24 @@
         "directlink": "https://s.shopee.co.id/2VtBJg7eGv"
       }
     ]
+  },
+  {
+    "id": "A139",
+    "title": "CARDIGAN x KOREAN JEANS",
+    "image": "https://cdn.imgso.co/bMZGf8Yr1.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/906f3epB0N"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/gRX8NTr3r"
+      }
+    ]
   }
 ]
