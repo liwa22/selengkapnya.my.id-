@@ -777,5 +777,24 @@
         "directlink": "https://s.shopee.co.id/gRX8NTr3r"
       }
     ]
+  },
+  {
+    "id": "A140",
+    "title": "FRILL TOP x JEANS BOOTCUT",
+    "image": "https://cdn.imgso.co/ORrAtb0Yb.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/1BqLFHWgH"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/7Af0sSgERQ"
+      }
+    ]
   }
 ]
