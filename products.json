@@ -739,5 +739,24 @@
         "directlink": "https://s.shopee.co.id/8pnErF1ZkI"
       }
     ]
+  },
+  {
+    "id": "A138",
+    "title": "KEMEJA RAMPING x STREET WEAR",
+    "image": "https://cdn.imgso.co/tjKnh3YhD.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/6AmTgO6wNs"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/2VtBJg7eGv"
+      }
+    ]
   }
 ]
