@@ -853,5 +853,24 @@
         "directlink": "https://s.shopee.co.id/7Af0siuBcc"
       }
     ]
+  },
+  {
+    "id": "A144",
+    "title": "OBLONG x JEANS BAGGY",
+    "image": "https://cdn.imgso.co/WJyZpPYy2.jpg",
+    "hotspots": [
+      {
+        "label": "Atasan",
+        "x": 85,
+        "y": 30,
+        "directlink": "https://s.shopee.co.id/50aWIuGopf"
+      },
+      {
+        "label": "Celana",
+        "x": 85,
+        "y": 70,
+        "directlink": "https://s.shopee.co.id/1W0e8Ukieo"
+      }
+    ]
   }
 ]
